@@ -1,0 +1,90 @@
+body {
+	background-color: lightgrey;
+}
+.title {
+	color: rebeccapurple;
+}
+
+.main-content {
+	background-color: white;
+}
+.header,
+.footer {
+	background-color: rgb(73, 73, 240);
+	height: 60px;
+	color: white;
+	text-align: center;
+}
+ul {
+	list-style-type: none;
+}
+ul li {
+	text-align: center;
+	border: 1px solid #ddd;
+	background-color: rgb(252, 252, 252);
+	padding: 10px;
+}
+
+#code {
+	background-color: lightgray;
+	border: 1px solid rgb(82, 80, 80);
+	color: rgb(82, 80, 80);
+	padding: 5px;
+	font-size: 13px;
+	height: 200px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+#res {
+	border: 1px solid;
+	padding: 5px;
+}
+a {
+	text-decoration: none;
+}
+li:hover {
+	background-color: rgb(73, 73, 240);
+	text-decoration: none;
+}
+.content1 {
+	border: 1px solid rgb(82, 80, 80);
+}
+#css2 {
+	background-color: lightgray;
+	border: 1px solid rgb(82, 80, 80);
+	color: rgb(82, 80, 80);
+	padding: 5px;
+	font-size: 13px;
+	height: 200px;
+	overflow-x: scroll;
+	overflow-y: scroll;
+}
+
+/*navbar styles*/
+/* Add a black background color to the top navigation */
+.topnav {
+	background-color: rgb(73, 73, 240);
+	overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+	float: left;
+	color: #f2f2f2;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	background-color: #ddd;
+	color: rgb(73, 73, 240);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+	background-color: white;
+	color: rgb(73, 73, 240);
+}

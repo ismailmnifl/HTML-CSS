@@ -1,0 +1,20 @@
+body {
+	background-color: lightgrey;
+}
+.title {
+	color: rebeccapurple;
+}
+
+.content {
+	min-height: 500px;
+}
+.main-content {
+	background-color: white;
+	min-height: 500px;
+	border: 1px solid grey;
+}
+.header,
+.footer {
+	background-color: green;
+	height: 40px;
+}
